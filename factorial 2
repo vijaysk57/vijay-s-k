@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+int n,n1,factorial=1,x;
+printf("enter the positve number");
+scanf("%d",&n);
+for(int i=1;i<=n;i++)
+{
+factorial=factorial*i;
+}
+printf("%d\n",factorial);
+x=factorial%10;
+printf("the last digit of factorial is %d", x);
+}
